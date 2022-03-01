@@ -132,7 +132,7 @@ public class Mes {
         }
 
         find_solution(l_matrix, b_matrix);
-        save_file(); //zapisuje do pliku, aby móc eksportować dane do excela
+        save_file();
 
         System.out.println("Macierz L:");
         System.out.println(Arrays.toString(l_matrix));
